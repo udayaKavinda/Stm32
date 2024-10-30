@@ -1,0 +1,6 @@
+../STM32_WPAN/App/custom_app.c:85:6:myTask	1
+../STM32_WPAN/App/custom_app.c:97:6:Custom_STM_App_Notification	5
+../STM32_WPAN/App/custom_app.c:139:6:Custom_APP_Notification	3
+../STM32_WPAN/App/custom_app.c:176:6:Custom_APP_Init	1
+../STM32_WPAN/App/custom_app.c:195:13:Custom_Mycharnotify_Update_Char	2
+../STM32_WPAN/App/custom_app.c:214:6:Custom_Mycharnotify_Send_Notification	2
