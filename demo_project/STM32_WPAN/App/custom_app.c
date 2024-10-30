@@ -86,7 +86,6 @@ void myTask(void)
 {
    UpdateCharData[0] =UpdateCharData[0]+0x1;
    Custom_Mycharnotify_Update_Char();
-   HAL_Delay(100);
    //printf("%d\n",UpdateCharData[0]);
 
    UTIL_SEQ_SetTask(1 << CFG_TASK_MY_TASK, CFG_SCH_PRIO_0);
@@ -202,7 +201,7 @@ __USED void Custom_Mycharnotify_Update_Char(void) /* Property Read */
 
   if (updateflag != 0)
   {
-    Custom_STM_App_Update_Char(CUSTOM_STM_MYCHARNOTIFY, (uint8_t *)UpdateCharData);
+	Custom_STM_App_Update_Char_Ext(Connection_Handle, CUSTOM_STM_MYCHARNOTIFY, (uint8_t *)UpdateCharData);
   }
 
   /* USER CODE BEGIN Mycharnotify_UC_Last*/
@@ -221,7 +220,7 @@ void Custom_Mycharnotify_Send_Notification(void) /* Property Notification */
 
   if (updateflag != 0)
   {
-    Custom_STM_App_Update_Char(CUSTOM_STM_MYCHARNOTIFY, (uint8_t *)NotifyCharData);
+	Custom_STM_App_Update_Char_Ext(Connection_Handle, CUSTOM_STM_MYCHARNOTIFY, (uint8_t *)NotifyCharData);
   }
 
   /* USER CODE BEGIN Mycharnotify_NS_Last*/

@@ -125,8 +125,6 @@ int main(void)
     MX_APPE_Process();
 
     /* USER CODE BEGIN 3 */
-    printf("hello world\n");
-    HAL_Delay(1000);
   }
   /* USER CODE END 3 */
 }

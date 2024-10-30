@@ -39,6 +39,8 @@ Middlewares/ST/STM32_WPAN/utilities/otp.o: \
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h \
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rtc.h \
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rtc_ex.h \
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h \
+ ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h \
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_uart.h \
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_uart_ex.h \
  ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h \
@@ -95,6 +97,8 @@ Middlewares/ST/STM32_WPAN/utilities/otp.o: \
 ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h:
 ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rtc.h:
 ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rtc_ex.h:
+../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h:
+../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h:
 ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_uart.h:
 ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_uart_ex.h:
 ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h:
