@@ -1,0 +1,6 @@
+../Core/Src/example_service.c:39:6:acc_example_service_init	16	static
+../Core/Src/example_service.c:107:5:acc_example_service	32	static
+../Core/Src/example_service.c:201:13:set_config	16	static
+../Core/Src/example_service.c:222:13:do_sensor_calibration_and_prepare	232	static
+../Core/Src/example_service.c:259:13:print_data	48	static
+../Core/Src/example_service.c:279:13:cleanup	8	static

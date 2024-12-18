@@ -1,0 +1,11 @@
+../Core/Src/acc_hal_integration_stm32cube_xe121_multi_sensor.c:44:20:disable_interrupts	4	static,ignoring_inline_asm
+../Core/Src/acc_hal_integration_stm32cube_xe121_multi_sensor.c:50:20:enable_interrupts	4	static,ignoring_inline_asm
+../Core/Src/acc_hal_integration_stm32cube_xe121_multi_sensor.c:75:13:spi_select	24	static
+../Core/Src/acc_hal_integration_stm32cube_xe121_multi_sensor.c:108:13:acc_hal_integration_sensor_transfer	40	static
+../Core/Src/acc_hal_integration_stm32cube_xe121_multi_sensor.c:154:6:acc_hal_integration_sensor_supply_on	16	static
+../Core/Src/acc_hal_integration_stm32cube_xe121_multi_sensor.c:165:6:acc_hal_integration_sensor_supply_off	16	static
+../Core/Src/acc_hal_integration_stm32cube_xe121_multi_sensor.c:176:6:acc_hal_integration_sensor_enable	24	static
+../Core/Src/acc_hal_integration_stm32cube_xe121_multi_sensor.c:192:6:acc_hal_integration_sensor_disable	24	static
+../Core/Src/acc_hal_integration_stm32cube_xe121_multi_sensor.c:209:6:acc_hal_integration_wait_for_sensor_interrupt	40	static,ignoring_inline_asm
+../Core/Src/acc_hal_integration_stm32cube_xe121_multi_sensor.c:244:10:acc_hal_integration_sensor_count	4	static
+../Core/Src/acc_hal_integration_stm32cube_xe121_multi_sensor.c:250:23:acc_hal_rss_integration_get_implementation	4	static
